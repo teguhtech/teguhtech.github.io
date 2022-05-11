@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Teguh Portofolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="dist/css/style.css">
+<link rel="stylesheet" href="dist/css/theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous">
+<style>
+  @font-face {
+  	font-family: 'montserrat';
+  	src: url('dist/font/montserrat.ttf');
+  }
+  
+  html,
+  body {
+  	overflow-y: scroll;
+  	scroll-behavior: smooth;
+  }
+  
+  #item-foot i {
+  	padding: 12px;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  pre {
+  	font-family: montserrat, monospace;
+  }
+  
+  .w3-bar,
+  h1,
+  button {
+  	font-family: montserrat, monospace;
+  }
+  
+  .fa-anchor,
+  .fa-coffee {
+  	font-size: 200px
+  }
+</style>
+
+<body>
+  <div style="position:fixed; left:10px; top:10px;" class="w3-dropdown-click"> <button onclick="myFunction()" class="w3-button w3-theme-l1 w3-hover-theme w3-xlarge">Menu</button>
+    <div style="position:fixed; right:0px; top:0px;" id="NavAnim" class="w3-large w3-theme-l1 w3-dropdown-content  w3-bar-block w3-card-4 w3-animate-right">
+      <h3 class="w3-bar-item w3-hover-theme w3-button">List Menu</h3>
+      <hr> <a href="#link1" class="w3-hover-theme w3-bar-item w3-button">Home</a> <a href="#link2" class="w3-hover-theme w3-bar-item w3-button">Biodata</a> <a href="#link3" class="w3-hover-theme w3-bar-item w3-button">Biografy</a> <a href="#link4" class="w3-hover-theme w3-bar-item w3-button">Skill</a>
+    </div>
+  </div> <!-- Header -->
+  <header id="link1" class="w3-container w3-text-theme w3-theme-l3 w3-center" style="padding:64px 16px"> <img src="dist/image/gambar1.png" alt="Banner" style="width:100%; max-width: 300px; height: auto;">
+    <h1 class="w3-margin ">PORTOFOLIO TEGUH S</h1>
+    <p class="w3-xlarge">Junior Network Engineer, Junior Programmer and Junior Designer</p> <button class="w3-button w3-theme-l1 w3-hover-theme w3-large"> More </button>
+  </header> <!-- First Grid -->
+  <div id="link2" class="w3-theme-l4 w3-text-theme w3-row-padding w3-padding-48 w3-container">
+    <div class="w3-content">
+      <h1 class="w3-center">BIODATA</h1>
+      <div class="w3-container w3-center w3-half  w3-padding-top-24"> <img src="dist/image/gambar2.png" alt="Lights" style="width:100%; max-width: 300px; height: auto;"> </div>
+      <div class="w3-container w3-half w3-padding-top-24">
+        <h2>Biodata of Teguh Sabila</h2>
+        <table class="w3-table w3-large">
+          <tr>
+            <td>Name</td>
+            <td>: Teguh Sabila</td>
+          </tr>
+          <tr>
+            <td>Place of birth</td>
+            <td>: Bogor, West Java.</td>
+          </tr>
+          <tr>
+            <td>Date of birth</td>
+            <td>: 11th Mey 2004.</td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>: Bogor, Indonesian</td>
+          </tr>
+          <tr>
+            <td>Status</td>
+            <td>: Student</td>
+          </tr>
+          <tr>
+            <td>Instance</td>
+            <td>: SMK Komputer Indonesia</td>
+          </tr>
+          <tr>
+            <td>Major</td>
+            <td>: Teknik Komputer dan Jaringan</td>
+          </tr>
+          <tr>
+            <td>Karier</td>
+            <td>: Network Engineer, Web Developer, Graphic Design, Art Ilustration.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div> <!-- Second Grid -->
+  <div id="link3" class="w3-theme-l3 w3-text-theme w3-row-padding w3-padding-48 w3-container">
+    <div class="w3-content">
+      <h1 class="w3-center">BIOGRAFY</h1>
+      <h2 class="w3-padding-top-24">Education</h2>
+      <table class=" w3-table-all w3-large w3-card-4">
+        <thead>
+          <tr class="w3-theme-l1">
+            <th>School Name</th>
+            <th>Years</th>
+            <th>Major</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>SDN Situ Udik</td>
+          <td>2010-2016</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>SMPN 1 Cibungbulang</td>
+          <td>2016-2019</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>SMK Komputer Indonesia</td>
+          <td>2019-2022</td>
+          <td>TKJ</td>
+        </tr>
+      </table>
+      <h2>Webinar Certified</h2>
+      <table class=" w3-table-all w3-large w3-card-4">
+        <thead>
+          <tr class="w3-theme-l1">
+            <th>Title</th>
+            <th>Time</th>
+            <th>Certificate</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>Inovation Along Technology For The Grid future</td>
+          <td>24 October 2021</td>
+          <td> <button onclick="document.getElementById('sertifikat1').style.display='block'" class="w3-button w3-theme-l1 w3-hover-theme">Open</button> </td>
+        </tr>
+      </table>
+      <h2>Olympic Certified</h2>
+      <table class=" w3-table-all w3-large w3-card-4">
+        <thead>
+          <tr class="w3-theme-l1">
+            <th>Title</th>
+            <th>Time</th>
+            <th>Certificate</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>SEMIFINALIS UI/UX DESIGN COMPETITION IDN IT FEST</td>
+          <td>7 November - 11 December 2021</td>
+          <td> <button onclick="document.getElementById('sertifikat2').style.display='block'" class="w3-button w3-theme-l1 w3-hover-theme">Open</button> </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!--Lihat Sertifikasi-->
+  <div id="sertifikat1" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-theme-l1"> <span onclick="document.getElementById('sertifikat1').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <h2>Certified</h2>
+      </header>
+      <div class="w3-container w3-center"> <img style="max-width: 100%; height: auto;" src="dist/image/sertifikat1.png" alt="sertifikat1"> </div>
+    </div>
+  </div>
+  <div id="sertifikat2" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-theme-l1"> <span onclick="document.getElementById('sertifikat2').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <h2>Certified</h2>
+      </header>
+      <div class="w3-container w3-center"> <img style="max-width: 100%; height: auto;" src="dist/image/sertifikat2.png" alt="sertifikat1"> </div>
+    </div>
+  </div> <!-- End  -->
+  <!-- Third Grid -->
+  <div id="link4" class="w3-theme-l4 w3-text-theme w3-row-padding w3-padding-48 w3-container">
+    <div class="w3-content">
+      <h1 class="w3-center">Skill</h1>
+      <div class="w3-container w3-cell w3-mobile">
+        <h2>Programming</h2>
+        <li class="w3-padding-16 w3-large">HTML <span class="w3-tag w3-green">Expert</span></li>
+        <li class="w3-padding-16 w3-large">CSS <span class="w3-tag w3-yellow">Intermediate</span></li>
+        <li class="w3-padding-16 w3-large">JAVASCRIPT <span class="w3-tag w3-orange">Beginner</span></li>
+        <li class="w3-padding-16 w3-large">BOOTSTRAP <span class="w3-tag w3-orange">Beginner</span></li>
+      </div>
+      <div class="w3-container w3-cell w3-mobile ">
+        <h2>Design</h2>
+        <li class="w3-padding-16 w3-large">Graphic Design <span class="w3-tag w3-yellow">Intermediate</span></li>
+        <li class="w3-padding-16 w3-large">Art Design <span class="w3-tag w3-yellow">Intermediate</span></li>
+      </div>
+      <div class="w3-container w3-cell w3-mobile ">
+        <h2>Networking</h2>
+        <li class="w3-padding-16 w3-large">MIKROTIK <span class="w3-tag w3-yellow">Intermediate</span></li>
+        <li class="w3-padding-16 w3-large">CISCO <span class="w3-tag w3-orange">Beginner</span></li>
+        <li class="w3-padding-16 w3-large">Linux Server <span class="w3-tag w3-yellow">Intermediate</span></li>
+      </div>
+    </div>
+  </div> <!-- Footer -->
+  <div class="w3-container w3-padding-48 w3-theme-l3 w3-text-theme">
+    <div id="item-foot" class="w3-container w3-center w3-half w3-padding-16">
+      <h2>Social Account</h2> <a href="//fb.me/teguh.coffeecode"><i class="fab fa-facebook fa-3x"></i></a> <a href="//wa.me/6289530639515"><i class=" fab fa-whatsapp fa-3x"></i></a> <a href="//instagram.com/teguh.coffeecode"><i class=" fab fa-instagram fa-3x"></i></a> <a href="//github.com/teguh-tech"><i class=" fab fa-github fa-3x"></i></a>
+    </div>
+    <div id="item-foot" class="w3-container w3-center w3-half w3-padding-16">
+      <h2>Donate</h2> <a href="https://trakteer.id/teguh-tech"><i class=" fas fa-mug-hot fa-3x"></i></a>
+    </div>
+  </div>
+  <footer class="w3-container w3-padding-28 w3-theme-l1 w3-center">
+    <p class="w3-large">Portofolio Created By Teguh S</p>
+  </footer>
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+    	var x = document.getElementById("navDemo");
+    	if(x.className.indexOf("w3-show") == -1) {
+    		x.className += " w3-show";
+    	} else {
+    		x.className = x.className.replace(" w3-show", "");
+    	}
+    }
+  </script>
+  <script>
+    function myFunction() {
+    	var x = document.getElementById("NavAnim");
+    	if(x.className.indexOf("w3-show") == -1) {
+    		x.className += " w3-show";
+    	} else {
+    		x.className = x.className.replace(" w3-show", "");
+    	}
+    }
+  </script>
+</body>
+
+</html>
